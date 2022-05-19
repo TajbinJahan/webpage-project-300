@@ -302,7 +302,7 @@ footer p:nth-child(2){
 
 /* making It responsive */
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 100px)
 {
 	*{
 		padding: 0;

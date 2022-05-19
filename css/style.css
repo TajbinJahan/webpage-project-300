@@ -300,6 +300,8 @@ footer p:nth-child(2){
 	font-size: 14px; 
 }
 
+/* making It responsive */
+
 @media screen and (max-width: 600px)
 {
 	*{
@@ -307,6 +309,14 @@ footer p:nth-child(2){
 		margin: 0;
 		font-family: 'Josefin Sans', sans-serif;
 		box-sizing: border-box;
+	}
+	nav{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-top: 45px;
+		padding-left: 2%;
+		padding-right: 2%;
 	}
 	.logo{
 		color: white;
